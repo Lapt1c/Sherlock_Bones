@@ -1,0 +1,15 @@
+torch
+monai
+nibabel
+SimpleITK
+pynrrd
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+pyyaml
+captum
+streamlit
+pytest

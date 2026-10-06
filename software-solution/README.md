@@ -1,0 +1,11 @@
+# software-solution
+- `notebooks/` cod alternat cu explicații (numerotate pe etape)
+  - `01_flow_app_stub.ipynb` (etapa 1)
+  - `02_eda_small_data.ipynb`, `02_baseline_small.ipynb` (etapa 2)
+  - `03_full_data_experiments.ipynb` (etapa 3)
+  - `04_improvements_xai.ipynb` (etapa 4)
+  - `05_integration.ipynb` (etapa 5)
+- `src/` cod reutilizabil: `data/` (încărcare, preprocesare, split pe pacient), `models/`, `training/`, `explain/` (Grad-CAM 3D)
+- `app/` aplicația (etapa 1: predicție hard-codată; etapa 5: modelul real)
+- `configs/` hiperparametri (yaml), pentru reproductibilitate
+- `tests/` teste unitare

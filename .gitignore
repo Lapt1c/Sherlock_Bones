@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+*.pt
+*.pth
+*.ckpt
+software-solution/data/raw/*
+software-solution/data/processed/*
+!software-solution/data/raw/.gitkeep
+!software-solution/data/processed/.gitkeep
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
